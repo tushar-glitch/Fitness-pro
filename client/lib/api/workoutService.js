@@ -2,7 +2,7 @@
  * Workout service for handling workout operations
  */
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://fitness-pro-42uw.onrender.com/api';
 
 /**
  * Get the authentication headers

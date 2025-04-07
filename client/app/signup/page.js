@@ -88,7 +88,7 @@ export default function SignUp() {
                   <Input 
                     id="firstName" 
                     name="firstName"
-                    placeholder="John" 
+                    placeholder="Dev" 
                     value={formData.firstName}
                     onChange={handleChange}
                     required 
@@ -99,7 +99,7 @@ export default function SignUp() {
                   <Input 
                     id="lastName" 
                     name="lastName"
-                    placeholder="Doe" 
+                    placeholder="Dock" 
                     value={formData.lastName}
                     onChange={handleChange}
                     required 
@@ -111,7 +111,7 @@ export default function SignUp() {
                 <Input 
                   id="username" 
                   name="username"
-                  placeholder="johndoe" 
+                  placeholder="DevDock" 
                   value={formData.username}
                   onChange={handleChange}
                   required 

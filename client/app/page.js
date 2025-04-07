@@ -16,8 +16,8 @@ export default function Home() {
             <Link href="/" className="text-sm font-medium hover:underline underline-offset-4">
               Features
             </Link>
-            <Link href="/community" className="text-sm font-medium hover:underline underline-offset-4">
-              Community
+            <Link href="/" className="text-sm font-medium hover:underline underline-offset-4">
+              Contact Us
             </Link>
             <Link href="/plans" className="text-sm font-medium hover:underline underline-offset-4">
               Plans

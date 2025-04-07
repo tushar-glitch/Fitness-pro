@@ -165,7 +165,7 @@ export default function Community() {
       <div className="flex min-h-screen items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mx-auto"></div>
-          <p className="mt-4 text-muted-foreground">Loading community data...</p>
+          <p className="mt-4 text-muted-foreground">Loading connection data...</p>
         </div>
       </div>
     );
@@ -180,14 +180,14 @@ export default function Community() {
             <span className="text-xl font-bold">FitConnect</span>
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link href="/dashboard" className="text-sm font-medium hover:text-primary">
+            <Link href="/dashboard" className="text-sm font-medium text-primary">
               Dashboard
             </Link>
-            <Link href="/dashboard/workouts" className="text-sm font-medium hover:text-primary">
-              Workouts
-            </Link>
-            <Link href="/dashboard/community" className="text-sm font-medium text-primary">
+            <Link href="/community" className="text-sm font-medium hover:text-primary">
               Community
+            </Link>
+            <Link href="/dashboard/connections" className="text-sm font-medium hover:text-primary">
+              Connections
             </Link>
             <Link href="/dashboard/progress" className="text-sm font-medium hover:text-primary">
               Progress
@@ -234,7 +234,7 @@ export default function Community() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
             <div>
-              <h1 className="text-3xl font-bold tracking-tight">Community</h1>
+              <h1 className="text-3xl font-bold tracking-tight">Connections</h1>
               <p className="text-muted-foreground">Connect with fitness enthusiasts who share your goals.</p>
             </div>
             <div className="w-full md:w-auto">

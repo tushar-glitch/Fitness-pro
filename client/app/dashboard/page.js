@@ -130,11 +130,11 @@ export default function Dashboard() {
             <Link href="/dashboard" className="text-sm font-medium text-primary">
               Dashboard
             </Link>
-            <Link href="/dashboard/workouts" className="text-sm font-medium hover:text-primary">
-              Workouts
-            </Link>
-            <Link href="/dashboard/community" className="text-sm font-medium hover:text-primary">
+            <Link href="/community" className="text-sm font-medium hover:text-primary">
               Community
+            </Link>
+            <Link href="/dashboard/connections" className="text-sm font-medium hover:text-primary">
+              Connections
             </Link>
             <Link href="/dashboard/progress" className="text-sm font-medium hover:text-primary">
               Progress
